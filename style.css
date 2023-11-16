@@ -68,8 +68,13 @@ footer{
 /* *********************************** la video ***********************************/
 
 .video{
+    display: inline-flexbox;
+    /*justify-content: center;
+    align-items: center;*/
     background: rgb(183, 217, 236);
     filter:contrast(20%);
+    border: solid 5px gold;
+    margin: 10px 0;
 }
 
 .video:hover{ /* curseur sur la video */
