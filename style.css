@@ -5,7 +5,7 @@
 }
 
 .container{
-    position: relative;
+    /*position: relative;*/
     min-height: 100vh;
     /*justify-content: center;*/
     background: blueviolet;
@@ -68,17 +68,17 @@ footer{
 /* *********************************** la video ***********************************/
 
 .video{
-    display: inline-flexbox;
-    /*justify-content: center;
-    align-items: center;*/
     background: rgb(183, 217, 236);
     filter:contrast(20%);
-    border: solid 5px gold;
-    margin: 10px 0;
+    margin: 10px;
+    /*border: solid 5px gold;*/
 }
 
 .video:hover{ /* curseur sur la video */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     filter: contrast(1);/* retire le contraste lorsque la souris passe*/
-    transform: scale(1.8); /* zoom */
+    transform: scale(1.5); /* zoom */
     z-index: 1; /* Permet de mettre a un plan au-desssus des autres cartes */
 }
