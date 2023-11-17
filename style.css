@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 .container{
@@ -94,7 +95,7 @@ footer{
       padding-top: ($height / $width) * 100%;
     }
       
-    > img {
+    > i {
           position: absolute;
           top: 0;
           left: 0;
@@ -159,6 +160,7 @@ footer{
       white-space: nowrap;
       box-sizing: border-box;
       display: flex;
+      
   }
   
   .carousel__slide {
@@ -183,7 +185,7 @@ footer{
           width: 100%;
       }
       
-      img {
+      i {
           display: block;
           flex: 1 1 auto;
           object-fit: cover;
@@ -211,7 +213,7 @@ footer{
       margin: 0 -10px;
       
       .carousel__slides + & {
-          margin-top: 20px;
+        margin-top: 20px;
       }
       
       li {        
@@ -227,11 +229,10 @@ footer{
           @include aspect-ratio(1,1);
           
                     
-          &:hover,
-          &:focus {
+          &:hover, &:focus {
               cursor: pointer;
               
-              img {
+              i {
                   box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.25);
                   transition: all 300ms ease-in-out;
               }
@@ -247,4 +248,11 @@ footer{
         height: 50px;
         object-fit: cover;
         text-align: center;
+        /*border: solid 5px green;*/
+    }
+
+    /* ******************* changement de la taille de l'icon video ***************** */
+    i{
+        font-size: 50px;
+        /*text-decoration: none;*/
     }
