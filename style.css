@@ -62,7 +62,7 @@ h1{
     display: flex;
     width: 100%;
     font-size: 20px;
-    text-align:right;
+    text-align:justify;
     align-items: center;
     justify-content: center;
     padding: 20px 15px;
