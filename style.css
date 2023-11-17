@@ -306,9 +306,28 @@ footer{
     text-align: justify;
     padding: 20px;
 }
+/* **** icon github ***** */
+.github{
+    position: relative;
+    left:150px;
+}
 
  .phase figcaption {
     width: 50%;
     font-size: 20px;
     text-align: center;
 }
+
+.resultat_final{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultat_final img{
+    display: flex;
+    width: 600px;
+    margin:50px;
+} 
