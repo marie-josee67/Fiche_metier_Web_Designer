@@ -54,6 +54,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: flex-start;
+    padding: 10px 0 0 0;
     /*border: solid 2px brown;*/
 }
 
@@ -64,7 +65,7 @@ h1{
     text-align:right;
     align-items: center;
     justify-content: center;
-    padding: 30px 15px;
+    padding: 20px 15px;
 }
 
 /*  pied de page  */
