@@ -306,3 +306,8 @@ footer{
     padding: 20px;
 
 }
+ .phase figcaption {
+    width: 50%;
+    font-size: 20px;
+    text-align: center;
+}
