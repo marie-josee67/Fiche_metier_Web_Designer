@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color:aliceblue;
 }
 
 .container{
@@ -55,13 +56,15 @@ h1{
     align-items: flex-start;
     /*border: solid 2px brown;*/
 }
+
 .Definition{
     display: flex;
     width: 100%;
     font-size: 20px;
+    text-align:right;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    padding: 30px 15px;
 }
 
 /*  pied de page  */
@@ -262,5 +265,6 @@ footer{
     /* ******* changement de la taille de l'icon video ***** */
     i{
         font-size: 50px;
+        color: aliceblue;
         /*text-decoration: none;*/
     }
