@@ -269,3 +269,10 @@ footer{
         color: aliceblue;
         /*text-decoration: none;*/
     }
+
+/* ************************************ Phase 1 ********************************** */
+
+.phase_2{
+    width: 100%;
+    text-decoration: solid;
+}
