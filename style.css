@@ -331,3 +331,12 @@ footer{
     width: 600px;
     margin:50px;
 } 
+
+.pdf{
+    display: flex;
+    object-fit: cover;
+    text-align: center;
+    margin:20px 0 0 10px;
+    gap:50px; /* écart entre les images */
+    /*border: solid 5px green;*/
+}
