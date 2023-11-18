@@ -56,7 +56,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: flex-start;
-    text-decoration: rgb(225, 4, 246) wavy underline; 
+    text-decoration: rgb(80, 35, 186) wavy underline; 
     /*border: solid 2px brown;*/
 }
 
@@ -64,7 +64,8 @@ h2{
     display: flex;
     width: 100%;
     font-size: 40px;
-    text-decoration: rgb(225, 4, 246) dotted underline; 
+    text-decoration: rgb(80, 35, 186) dotted underline; 
+
     /*border: solid 2px brown;*/
 }
 

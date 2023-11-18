@@ -370,41 +370,50 @@ body{
 
  /* reste de la page */
 
- .resultat_final{
-    display: flex;
-    width: 100%;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color:aliceblue;
+}
+
+.container{
+  /*position: relative;*/
+  min-height: 100vh;
+  /*justify-content: center;*/
+  /*border: solid 8px rgb(232, 23, 23);*/
+}
+
+.navbarre{
+  display: flex;
+  flex-wrap: wrap;
+  height: 60px;
+  width: 100%;
+  background: rgba(28, 28, 27, 0.316);
+  /*text-align: center;*/
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  padding:5px 15px 0px 0px;
+  position: fixed;
+  /*border: solid 2px red;*/
+}
+
+.resultat_final{
+   display: flex;
+   width: 100%;
+   padding: 15px;
+   justify-content: center;
+   align-items: center;
 }
 
 .resultat_final img{
-    display: flex;
-    width: 600px;
-    margin:50px;
+   display: flex;
+   width: 600px;
+   margin:50px;
 } 
-
-.container{
-    /*position: relative;*/
-    min-height: 100vh;
-    /*justify-content: center;*/
-    /*border: solid 8px rgb(232, 23, 23);*/
-}
-.navbarre{
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 100%;
-    background: rgba(244, 244, 242, 0.316);
-    /*text-align: center;*/
-    text-decoration: none;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
-    padding:5px 15px 0px 0px;
-    position: fixed;
-    /*border: solid 2px red;*/
-}
 
 #logo{
     padding: 5px;
@@ -433,7 +442,7 @@ h1{
     text-align: center;
     justify-content: center;
     align-items: flex-start;
-    text-decoration: rgb(225, 4, 246) wavy underline; 
+    text-decoration: rgb(80, 35, 186) wavy underline; 
     /*border: solid 2px brown;*/
 }
 
