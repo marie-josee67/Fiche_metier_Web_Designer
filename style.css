@@ -64,7 +64,7 @@ h2{
     display: flex;
     width: 100%;
     font-size: 40px;
-    text-decoration: rgb(80, 35, 186) dotted underline; 
+    text-decoration: rgb(80, 35, 186) underline; 
 
     /*border: solid 2px brown;*/
 }
@@ -72,6 +72,7 @@ h2{
 h3{
     display: flex;
     width: 100%;
+    text-decoration: rgb(80, 35, 186) dotted underline; 
     font-size: 25px;
     /*border: solid 2px brown;*/
 }
