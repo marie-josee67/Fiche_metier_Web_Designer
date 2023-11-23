@@ -307,13 +307,14 @@ footer{
     text-align: justify;
     padding: 20px;
 }
+
 /* **** icon github ***** */
 .github{
     position: relative;
     left:150px;
 }
 
- .phase figcaption {
+.phase figcaption {
     width: 50%;
     font-size: 20px;
     text-align: center;
